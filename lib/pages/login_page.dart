@@ -48,15 +48,14 @@ class _LoginPageState extends State<LoginPage> {
                 Image.asset(
                   'assets/images/curva.png',
                   width: double.infinity,
-                  height: 250,
+                  height: 230,
                   fit: BoxFit.fitWidth,
                 ),
                 //Logo
                 Icon(
                   Icons.add_photo_alternate,
-                  size: 80,
+                  size: 60,
                 ),
-                SizedBox(height: 10),
 
                 // Hola Usuario
                 Text(

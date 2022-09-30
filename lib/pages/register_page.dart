@@ -71,10 +71,15 @@ class _RegisterPageState extends State<RegisterPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Image.asset(
+                  'assets/images/curva.png',
+                  width: double.infinity,
+                  height: 230,
+                ),
                 //Logo
                 Icon(
                   Icons.add_photo_alternate,
-                  size: 80,
+                  size: 55,
                 ),
                 SizedBox(height: 10),
 
