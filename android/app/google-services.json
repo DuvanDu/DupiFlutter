@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37722020674",
+    "project_id": "dupis-9df37",
+    "storage_bucket": "dupis-9df37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37722020674:android:321bb038cf1281b8e506db",
+        "android_client_info": {
+          "package_name": "com.example.dupis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37722020674-rh5atjphvu0me016b7ptihblo6m7ef6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC7zdMRWZfUoT0pajXXLeyuo2yugOMLXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37722020674-rh5atjphvu0me016b7ptihblo6m7ef6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
