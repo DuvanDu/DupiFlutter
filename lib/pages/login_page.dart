@@ -45,6 +45,12 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Image.asset(
+                  'assets/images/curva.png',
+                  width: double.infinity,
+                  height: 250,
+                  fit: BoxFit.fitWidth,
+                ),
                 //Logo
                 Icon(
                   Icons.add_photo_alternate,
@@ -90,6 +96,7 @@ class _LoginPageState extends State<LoginPage> {
                           borderSide: BorderSide(color: Colors.orange)),
                       hintText: 'usuario@ejemplo.com',
                       hintStyle: TextStyle(
+                        fontFamily: 'PrimeformPro',
                         color: Colors.white,
                       ),
                       fillColor: Color.fromRGBO(132, 169, 140, 1),
@@ -140,7 +147,7 @@ class _LoginPageState extends State<LoginPage> {
                   padding: const EdgeInsets.symmetric(horizontal: 50.0),
                   child: TextField(
                     controller: _passwordController,
-                    obscureText: false,
+                    obscureText: true,
                     decoration: InputDecoration(
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
@@ -152,6 +159,7 @@ class _LoginPageState extends State<LoginPage> {
                           borderSide: BorderSide(color: Colors.orange)),
                       hintText: '6 Digitos',
                       hintStyle: TextStyle(
+                        fontFamily: 'PrimeformPro',
                         color: Colors.white,
                       ),
                       fillColor: Color.fromRGBO(132, 169, 140, 1),

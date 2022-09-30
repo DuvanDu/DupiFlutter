@@ -116,6 +116,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           borderSide: BorderSide(color: Colors.orange)),
                       hintText: 'usuario@ejemplo.com',
                       hintStyle: TextStyle(
+                        fontFamily: 'PrimeformPro',
                         color: Colors.white,
                       ),
                       fillColor: Color.fromRGBO(132, 169, 140, 1),
@@ -154,6 +155,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           borderSide: BorderSide(color: Colors.orange)),
                       hintText: '1020121222',
                       hintStyle: TextStyle(
+                        fontFamily: 'PrimeformPro',
                         color: Colors.white,
                       ),
                       fillColor: Color.fromRGBO(132, 169, 140, 1),
@@ -191,8 +193,9 @@ class _RegisterPageState extends State<RegisterPage> {
                       focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                           borderSide: BorderSide(color: Colors.orange)),
-                      hintText: '6 Digitos',
+                      hintText: '6 digitos',
                       hintStyle: TextStyle(
+                        fontFamily: 'PrimeformPro',
                         color: Colors.white,
                       ),
                       fillColor: Color.fromRGBO(132, 169, 140, 1),
@@ -230,8 +233,9 @@ class _RegisterPageState extends State<RegisterPage> {
                       focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                           borderSide: BorderSide(color: Colors.orange)),
-                      hintText: '6 Digitos',
+                      hintText: '6 digitos',
                       hintStyle: TextStyle(
+                        fontFamily: 'PrimeformPro',
                         color: Colors.white,
                       ),
                       fillColor: Color.fromRGBO(132, 169, 140, 1),
